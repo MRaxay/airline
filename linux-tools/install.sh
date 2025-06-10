@@ -1,10 +1,8 @@
 #!/bin/sh
-if [ $(id -u) -ne 0 ]
-  then echo Please run this script as root or using sudo!
-  exit
-fi
+sudo ./installDependencies.sh
 
-./installDependencies.sh
+echo "Dependencies installed, initializing."
 
-echo "All dependencies installed!"
+./Init.sh
+
 
