@@ -10,6 +10,7 @@ Live at https://myfly.club/
 - Java openjdk 11
 - MySQL 8
 - Sbt
+- ElasticSearch
 
 ## Setup
 1. Create MySQL database matching values defined [here](https://github.com/patsonluk/airline/blob/master/airline-data/src/main/scala/com/patson/data/Constants.scala#L184).
