@@ -5,3 +5,8 @@ if [ $(id -u) -ne 0 ]
 fi
 
 ./installDependencies.sh
+
+echo "All dependencies installed!"
+echo "Starting initialization!"
+
+./init.sh
