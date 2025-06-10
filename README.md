@@ -25,26 +25,6 @@ Live at https://myfly.club/
 1. Open another terminal, navigate to `airline-web`, run the web server by `sbt run`
 1. The application should be accessible at `localhost:9000`
 
-## Alternate Bare Metal development setup
-
-1. Ubuntu or Debian based machine, with at least 10 gigabytes of RAM.
-2. Clone this repository
-3. In a terminal, navigate to "airlines/linux-tools/"
-4. Run "install.sh" and follow the instructions
-
-The script will install all required dependencies and will configure the database. 
-
-!Important!
-The script is not intended for any production use and will:
-- Open up the mysql database for outside connections
-- Use the default password and user, with DB root access taken from ['application.conf'](https://github.com/MRaxay/airline/blob/AutoStartScript/airline-data/src/main/resources/application.conf) and ['Constants.scala'](https://github.com/myflyclub/airline/blob/master/airline-data/src/main/scala/com/patson/data/Constants.scala)
-- NOT configure any reverse proxy!
-
-I've added this for myself to easily deploy it for testing when necessary.
-
-Additionally, the script "startServerAndWeb.sh" will start both frontend and backend and can be used i.e. to start the game as a service.
-
-
 ## Alternate Docker Setup
 1. Install Docker & Docker-compose
 1. run `cp docker-compose.override.yaml.dist docker-compose.override.yaml` and then edit the new file with your preferred ports. Mysql only has to have exposed ports if you like to connect from outside docker
