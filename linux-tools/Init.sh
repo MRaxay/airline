@@ -15,4 +15,6 @@ case $yn in
 		exit 1;;
 esac
 
+cd ../linux-tools
+
 ./startServerAndWeb.sh
