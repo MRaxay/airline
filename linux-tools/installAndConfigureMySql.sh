@@ -18,6 +18,8 @@ echo "Adding database and required user"
 mysql -e "CREATE DATABASE airline;"
 mysql -e "CREATE USER mfc@localhost IDENTIFIED by 'V5xY7n8yrTeWcgHj';"
 mysql -e "GRANT ALL PRIVILEGES ON mysql.airline TO mfc@localhost;"
+mysql -e "CREATE USER mfc01@localhost IDENTIFIED by 'ghEtmwBdnXYBQH4';"
+mysql -e "GRANT ALL PRIVILEGES ON mysql.airline TO mfc01@localhost;"
 mysql -e "FLUSH PRIVILEGES;"
 
 
