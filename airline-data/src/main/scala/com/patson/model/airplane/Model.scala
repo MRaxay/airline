@@ -342,6 +342,8 @@ Model("De Havilland DHC-7-100",	"DHC Dash",	50,	3,	1.31,	2.82,	428,	1300,	516025
 Model("De Havilland DHC-8-300",	"DHC Dash",	50,	4,	1.21,	2.4,	450,	1711,	10241702,	1560,	4,	Manufacturer("De Havilland Canada",	"CA"),	1085,	"https://www.norebbo.com/2018/05/de-havilland-dhc-8-300-blank-illustration-templates/"),
 Model("De Havilland DHC-8-400",	"DHC Dash",	68,	4,	1.13,	2.22,	667,	1980,	16492345,	1560,	4,	Manufacturer("De Havilland Canada",	"CA"),	1085,	"https://www.norebbo.com/bombardier-dhc-8-402-q400-blank-illustration-templates/"),
 Model("De Havilland Q400",	"DHC Dash",	86,	5,	0.99,	1.98,	562,	2040,	19512003,	1560,	8,	Manufacturer("De Havilland Canada",	"CA"),	1885,	"https://www.norebbo.com/bombardier-dhc-8-402-q400-blank-illustration-templates/"),
+Model("Dornier 228-100",	"Dornier",	15,	3,	1.54,	1.98,	433,	1430,	9341000,	1560,	4,	Manufacturer("Dornier",	"DE"),	579,	""),
+Model("Dornier 228-212",	"Dornier",	19,	4,	1.58,	2.16,	427,	1037,	12341000,	1560,	5,	Manufacturer("Dornier",	"DE"),	792,	"https://commons.wikimedia.org/wiki/File:Dornier_228.png"),
 Model("Dornier 328-110",	"Dornier",	33,	7,	1.23,	2.38,	620,	920,	20705304,	1560,	6,	Manufacturer("Dornier",	"DE"),	1088,	"https://www.norebbo.com/2019/01/dornier-328-110-blank-illustration-templates/"),
 Model("Dornier 328JET",	"Dornier",	44,	7,	1.65,	2.12,	740,	1250,	24429756,	1820,	6,	Manufacturer("Dornier",	"DE"),	1367,	"https://www.norebbo.com/2019/01/fairchild-dornier-328jet-illustrations/"),
 Model("Dornier 728",	"Dornier",	80,	7,	1.59,	1.95,	980,	2640,	65711453,	1820,	6,	Manufacturer("Dornier",	"DE"),	1463,	""),
