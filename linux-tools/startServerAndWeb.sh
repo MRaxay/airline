@@ -7,12 +7,15 @@ else
     echo "MySQL is running."
 fi
 
-UP2=$(pgrep elasticsearch | wc -l)
-if [ "$UP2" -eq 0 ]; then
-    echo "ElasticSearch is down. Attempting start"
-    sudo service elasticsearch start
+ps aux | grep elasticsearch | pidof java > /dev/null
+verifier=$?
+zero=0
+if [ $zero = $verifier ]
+then
+    echo "ElasticSearch is running"
 else
-    echo "ElasticSearch is running."
+    echo "ElasticSearch is stopped attempting start."
+    sudo service elasticsearch start
 fi
 
 cd ../airline-data
