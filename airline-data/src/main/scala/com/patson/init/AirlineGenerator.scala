@@ -39,9 +39,9 @@ object AirlineGenerator extends App {
     deleteAirlines()
 
     generateUSAirline(List("US"))
-    generateCountryAirlines(List("CN","RU","IN","ID","BR"))
+    generateCountryAirlines(List("CN","RU","IN","ID","BR", "DE"))
     generateSmallCountryAirlines(List("JP","CA","TR","MX","VN"))
-    generateRemoteAirlines(List("AU","CA","US","DK","RU"))
+    generateRemoteAirlines(List("AU","CA","US","DK","RU", "FI", "SE", "NO", "NZ"))
     generateAffinityAirlines(List("EU","Banking","Oil","Pharma","Electronics","Copper","Marine"))
     generateAerospaceAirline()
     generateSSTAirline()
@@ -236,7 +236,7 @@ object AirlineGenerator extends App {
         bases.head,
         bases.tail,
         toAirports,
-        List("Cessna 208 Caravan", "Cessna 408 Skycourier"),
+        List("Cessna 208 Caravan", "Cessna 408 Skycourier", "Dornier 228-100"),
         1800,
         50
       )
