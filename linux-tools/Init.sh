@@ -3,6 +3,7 @@ cd ../airline-data
 
 echo "Running sync"
 sbt publishLocal
+sbt "runMain com.patson.MainInit"
 
 read -p "Do you want to start myfly club? (yes/no) " yn
 

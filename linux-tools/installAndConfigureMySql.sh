@@ -3,7 +3,7 @@ echo "Installing MySQL, root access required."
 apt install mysql-server-8.0 -y
 
 sed -i 's/mysqlx-bind-address/#mysqlx-bind-address/' /etc/mysql/mysql.conf.d/mysqld.cnf 
-sed -i 's/\nbind-address/\n#bind-address/' /etc/mysql/mysql.conf.d/mysqld.cnf 
+sed -i 's/bind-address/#bind-address/' /etc/mysql/mysql.conf.d/mysqld.cnf 
 
 echo "bind-address = 0.0.0.0" >> /etc/mysql/mysql.conf.d/mysqld.cnf 
 echo "mysqlx-bind-address = 0.0.0.0" >> /etc/mysql/mysql.conf.d/mysqld.cnf
